@@ -28,5 +28,5 @@ Gem::Specification.new 'diplomat', Diplomat::VERSION do |spec|
 
   # See https://github.com/WeAreFarmGeek/diplomat/issues/223
   # For now, diplomat does not work with faraday 2.x
-  spec.add_runtime_dependency 'faraday', '>= 0.9', '< 2.0'
+  spec.add_runtime_dependency 'faraday', '>= 0.9'
 end
